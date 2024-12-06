@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "eldritch",
+	"version": "${version}",
+	"name": "Eldritch Depths",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Thatdudekondd!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "AAR",
+	"icon": "assets/eldritch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.thatdudekondd.EldritchDepths"
+		],
+		"fabric-datagen": [
+			"net.thatdudekondd.EldritchDepthsDataGenerator"
+		],
+		"client": [
+			"net.thatdudekondd.EldritchDepthsClient"
+		]
+
+	},
+	"mixins": [
+		"eldritch.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
