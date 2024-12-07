@@ -1,4 +1,4 @@
-package net.thatdudekondd;
+package net.thatdudekondd.eldritch;
 
 import net.fabricmc.api.ClientModInitializer;
 

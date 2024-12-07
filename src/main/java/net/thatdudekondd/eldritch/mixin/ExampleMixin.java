@@ -1,4 +1,4 @@
-package net.thatdudekondd.mixin;
+package net.thatdudekondd.eldritch.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

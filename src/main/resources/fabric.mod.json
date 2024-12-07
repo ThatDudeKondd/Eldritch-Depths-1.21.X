@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.thatdudekondd.EldritchDepths"
+			"net.thatdudekondd.eldritch.EldritchDepths"
 		],
 		"fabric-datagen": [
-			"net.thatdudekondd.EldritchDepthsDataGenerator"
+			"net.thatdudekondd.eldritch.EldritchDepthsDataGenerator"
 		],
 		"client": [
-			"net.thatdudekondd.EldritchDepthsClient"
+			"net.thatdudekondd.eldritch.EldritchDepthsClient"
 		]
 
 	},

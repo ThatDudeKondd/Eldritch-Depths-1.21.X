@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.thatdudekondd.mixin",
+	"package": "net.thatdudekondd.eldritch.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
