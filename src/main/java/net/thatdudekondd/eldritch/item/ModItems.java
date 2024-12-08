@@ -10,7 +10,7 @@ import net.thatdudekondd.eldritch.EldritchDepths;
 
 public class ModItems {
     public static final Item ELDRITCH_TOME = registerItem("eldritch_tome", new Item(new Item.Settings()));
-
+    public static final Item ELDRITCH_GRIMOIRE = registerItem("eldritch_grimoire", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(EldritchDepths.MOD_ID, name), item);
@@ -21,6 +21,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ELDRITCH_TOME);
+            fabricItemGroupEntries.add(ELDRITCH_GRIMOIRE);
         });
     }
 }

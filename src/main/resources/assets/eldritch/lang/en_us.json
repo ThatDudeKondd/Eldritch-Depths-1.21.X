@@ -1,3 +1,6 @@
 {
-  "item.eldritch.eldritch_tome": "Eldritch Tome"
+  "item.eldritch.eldritch_tome": "Eldritch Tome",
+  "item.eldritch.eldritch_grimoire": "Eldritch Grimoire",
+
+  "block.eldritch.warden_head": "Warden Head"
 }
