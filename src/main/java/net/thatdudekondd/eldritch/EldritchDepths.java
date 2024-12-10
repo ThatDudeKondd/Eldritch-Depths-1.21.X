@@ -16,4 +16,5 @@ public class EldritchDepths implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
+
 }
